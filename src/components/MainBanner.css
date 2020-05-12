@@ -1,0 +1,120 @@
+.main {
+    /* height: 1000vh; */
+    margin-top: 60vh;
+    background-color: var(--bg-colour);
+}
+.main-content-wrapper {
+    height: 100vh;
+}
+
+.main-text {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.main-text .title {
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 5rem; */
+    font-size: 6vw;
+    font-weight: 400;
+    color: var(--font-colour);
+}
+.main-text .tagline {
+    font-family: 'PT Mono', monospace;
+    margin-top: -0.75rem;
+}
+.main-text .subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 200;
+    padding-top: 1rem;
+}
+
+.main-logo {
+    height: 62vh;
+    width: 62vh;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    
+    /* background-color: #e81818; */
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: logo-gradient 15s ease infinite;
+    -moz-animation: logo-gradient 15s ease infinite;
+    -o-animation: logo-gradient 15s ease infinite;
+    animation: logo-gradient 15s ease infinite;
+}
+@-webkit-keyframes logo-gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes logo-gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes logo-gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes logo-gradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.main-logo img {
+    height: 62vh;
+    width: 62vh;
+    
+    display: block;
+    margin: auto;
+}
+.main-logo .logo-heart {
+    position: absolute;
+    z-index: 1;
+}
+.main-logo .logo-hands {
+    position: absolute;
+    z-index: 2;
+}
+
+
+
+.triangleLeft {
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    border-left: 0 solid transparent;
+    border-right: 50vw solid transparent;
+    border-bottom: 15vh solid var(--bg-colour2);
+	display:inline;
+}
+.triangleRight {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-left: 50vw solid transparent;
+    border-right: 0 solid transparent;
+    border-bottom: 15vh solid var(--bg-colour2);
+	display:inline;
+}
+.downCarat {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15vh;
+}

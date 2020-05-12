@@ -1,0 +1,98 @@
+.about-section {
+    background-color: var(--bg-colour2);
+    height: 80vh;
+    text-align: center;
+    position: relative;
+}
+
+/* LEFT LARGE TEXT */
+.about-section .section-header {
+    text-align: center;
+    margin-top: 50%;
+}
+.about-section .section-header h3 {
+    font-family: 'PT Mono', monospace;
+    font-size: 1.75rem;
+}
+.about-section .section-header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+}
+
+/* RIGHT INFO TEXT */
+.about-section .top-layer {
+    height: 60vh;
+    width: 60vh;
+    background-color: var(--bg-colour);
+
+    position: absolute;
+    z-index: 2;
+
+    top: 10vh;
+    left: 10vh;
+}
+.about-section .top-layer .about-subtext {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 1.25rem;
+    padding: 1rem;
+}
+.about-section .top-layer .about-icon {
+    text-align: center;
+    font-size: 7rem;
+}
+.about-section .top-layer .about-heading {
+    font-family: 'PT Mono', monospace;
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.about-section .top-layer .about-text {
+    /* font-family: 'Open Sans'; */
+    font-family: 'PT Mono', monospace;
+    font-size: 1.15rem;
+    font-weight: 100;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+
+/* RIGHT INFO TEXT SHADOW */
+.about-section .bottom-layer {
+    height: 60vh;
+    width: 60vh;
+    background-color: var(--bg-shadow-colour);
+
+    position: absolute;
+    z-index: 1;
+
+    top: 13vh;
+    left: 13vh;
+}
+
+
+/* TRIANGLES AT BOTTOM */
+/* CURRENTLY REMOVED */
+.about-section .triangleLeft {
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    border-left: 0 solid transparent;
+    border-right: 50vw solid transparent;
+    border-bottom: 15vh solid var(--bg-colour);
+	display:inline;
+}
+.about-section .triangleRight {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-left: 50vw solid transparent;
+    border-right: 0 solid transparent;
+    border-bottom: 15vh solid var(--bg-colour);
+	display:inline;
+}
+

@@ -1,0 +1,12 @@
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-link {
+    font-family: 'PT Mono', monospace;
+}
+
+.navbar-collapse {
+    transition: all .5s ease-in-out;
+    background-color: #9ce1e4;
+
+}

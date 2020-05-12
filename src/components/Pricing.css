@@ -1,0 +1,51 @@
+.pricing {
+    height: 60vh;
+    background-color: var(--bg-colour2);
+    padding-top: 50px;
+}
+
+.pricing .pricing-title {
+    text-align: center;
+}
+.pricing .pricing-title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+
+.pricing .price-card {
+    background-color: var(--bg-colour);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+
+    height: 20vh;
+    width: 30vh;
+    position: absolute;
+    z-index: 1;
+
+    top: 5vh;
+    left: 5vh;
+}
+
+.pricing .price-card h3 {
+    font-family: 'PT Mono', monospace;
+    font-size: 1.5rem;
+}
+.pricing .price-card h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+
+
+.pricing .price-card-shadow {
+    background-color: var(--bg-shadow-colour);
+    position: absolute;
+    height: 20vh;
+    width: 30vh;
+    z-index: 0;
+
+    top: 9vh;
+    left: 9vh;
+}
+
