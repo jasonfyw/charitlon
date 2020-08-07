@@ -3,7 +3,7 @@ import './MainBanner.css';
 import logoHands from '../media/charitlon-logo-palms.png';
 import logoHeart from '../media/charitlon-logo-heart.png';
 
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Parallax, ParallaxBanner } from 'react-scroll-parallax';
 import IosArrowDown from 'react-ionicons/lib/IosArrowDown';
@@ -13,7 +13,7 @@ const MainContent = () => (
         {/* <Container> */}
             <Row>
                 <Col xs="6">
-                    <Parallax x={[100, -100]}> 
+                    {/* <Parallax x={[100, -100]}>  */}
                         <ScrollAnimation animateIn="fadeInLeft" animateOut="fadeOutLeft" offset="0">
                             <div className="main-content-wrapper">
                                 <div className="main-text">
@@ -23,10 +23,10 @@ const MainContent = () => (
                                 </div>
                             </div>
                         </ScrollAnimation>
-                    </Parallax>
+                    {/* </Parallax> */}
                 </Col>
                 <Col xs="6">
-                    <Parallax x={[-100, 100]}>
+                    {/* <Parallax x={[-100, 100]}> */}
                         <div className="main-content-wrapper">
                             <div className="main-logo" >
                                 <div className="logo-heart">
@@ -42,7 +42,7 @@ const MainContent = () => (
                                 </div>
                             </div>
                         </div>
-                    </Parallax>
+                    {/* </Parallax> */}
                 </Col>
             </Row>
         {/* </Container> */}
