@@ -10,6 +10,10 @@ import { Route } from 'react-router-dom';
 
 class App extends Component {
 
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     render() {
         return (
             <ParallaxProvider>
