@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/charitlon/precache-manifest.2c7d2c6dc6de03504522d77cfa8b9064.js"
+  "/charitlon/precache-manifest.0ac9e3d6f7ff7982a3abb40da2d593d5.js"
 );
 
 self.addEventListener('message', (event) => {
