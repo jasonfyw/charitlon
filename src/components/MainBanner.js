@@ -19,7 +19,7 @@ const MainContent = () => (
                                 <div className="main-text">
                                     <div className="title">CHARITLON</div>
                                     <div className="tagline">#Students4Students</div>
-                                    <div className="subtitle">30 May 2020</div>
+                                    <div className="subtitle">17 April 2021</div>
                                 </div>
                             </div>
                         </ScrollAnimation>
