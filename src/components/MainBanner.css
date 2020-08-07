@@ -7,6 +7,10 @@
     height: 100vh;
 }
 
+/* 
+Text section
+*/
+
 .main-text {
     text-align: center;
     margin: 0;
@@ -33,6 +37,11 @@
     font-weight: 200;
     padding-top: 1rem;
 }
+
+
+/* 
+Logo section
+*/
 
 .main-logo {
     height: 62vh;
@@ -91,7 +100,9 @@
     z-index: 2;
 }
 
-
+/* 
+Styling for lower portion
+*/
 
 .triangleLeft {
 	position: absolute;
