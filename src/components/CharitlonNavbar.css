@@ -5,6 +5,10 @@
     font-family: 'PT Mono', monospace;
 }
 
+.nav-link .logo-instagram, .nav-link .mail-outline {
+    width: 1.75rem;
+}
+
 .navbar-collapse {
     transition: all .5s ease-in-out;
     background-color: #9ce1e4;

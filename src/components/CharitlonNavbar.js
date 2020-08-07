@@ -3,6 +3,8 @@ import './CharitlonNavbar.css';
 
 import { Navbar, Nav } from 'react-bootstrap';
 
+import { LogoInstagram, MailOutline } from '../media/Ionicons';
+
 class CharitlonNavbar extends Component {
     state = {
         scrollTop: 0
@@ -36,6 +38,10 @@ class CharitlonNavbar extends Component {
                     <Nav.Link href="#about">About</Nav.Link>
                 </Nav>
                 
+                <Nav>
+                    <Nav.Link href="https://instagram.com/charitlon" target="_blank" rel="noopener noreferrer"><LogoInstagram color="#000" /></Nav.Link>
+                    <Nav.Link href="mailto:contact@charitlon.cz"><MailOutline color="#000" /></Nav.Link>
+                </Nav>
             </Navbar>
         );
     }
