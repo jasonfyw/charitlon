@@ -14,13 +14,13 @@ class Footer extends Component {
                     <Container>
                         <Row>
                             <Col md="4">
-                                <img  src={NadacePreciosaLogo} width="100%" />
+                                <img src={NadacePreciosaLogo} width="100%" alt="Nadace Preciosa Logo" />
                             </Col>
                             <Col md="4">
-                                <img  src={RenomiaLogo} width="100%" />
+                                <img src={RenomiaLogo} width="100%" alt="Renomia Logo" />
                             </Col>
                             <Col md="4">
-                                <img src={PrazskaPlynarenskaLogo} width="100%" />
+                                <img src={PrazskaPlynarenskaLogo} width="100%" alt="Pražská Plynárenská Logo" style={{ 'paddingTop': '18px' }} />
                             </Col>
                         </Row>
                     </Container>
