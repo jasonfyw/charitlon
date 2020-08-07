@@ -18,6 +18,10 @@
     margin: 20px;
     padding: 20px;
 
+    -webkit-box-shadow: 15px 15px 0px 0px var(--bg-shadow-colour);
+    -moz-box-shadow: 15px 15px 0px 0px var(--bg-shadow-colour);
+    box-shadow: 15px 15px 0px 0px var(--bg-shadow-colour);
+
     height: 20vh;
     width: 30vh;
     position: absolute;
@@ -37,15 +41,4 @@
     font-weight: 400;
 }
 
-
-.pricing .price-card-shadow {
-    background-color: var(--bg-shadow-colour);
-    position: absolute;
-    height: 20vh;
-    width: 30vh;
-    z-index: 0;
-
-    top: 9vh;
-    left: 9vh;
-}
 

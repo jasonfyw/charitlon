@@ -25,6 +25,10 @@
     width: 60vh;
     background-color: var(--bg-colour);
 
+    -webkit-box-shadow: 18px 18px 0px 0px var(--bg-shadow-colour);
+    -moz-box-shadow: 18px 18px 0px 0px var(--bg-shadow-colour);
+    box-shadow: 18px 18px 0px 0px var(--bg-shadow-colour);
+
     position: absolute;
     z-index: 2;
 
@@ -59,20 +63,6 @@
 }
 
 
-
-
-/* RIGHT INFO TEXT SHADOW */
-.about-section .bottom-layer {
-    height: 60vh;
-    width: 60vh;
-    background-color: var(--bg-shadow-colour);
-
-    position: absolute;
-    z-index: 1;
-
-    top: 13vh;
-    left: 13vh;
-}
 
 
 /* TRIANGLES AT BOTTOM */
