@@ -2,8 +2,22 @@ import React, { Component } from 'react';
 import './CharitlonNavbar.css';
 
 import { Navbar, Nav } from 'react-bootstrap';
+import { HashLink } from 'react-router-hash-link';
+import styled from 'styled-components';
 
 import { LogoInstagram, MailOutline } from '../media/Ionicons';
+
+const Link = styled(HashLink)`
+    font-family: 'PT Mono', monospace;
+    color: #777;
+    text-decoration: none;
+    transition: 0.3s;
+
+    &:hover {
+        color: #333;
+        text-decoration: none;
+    }
+`;
 
 class CharitlonNavbar extends Component {
     state = {
@@ -33,9 +47,11 @@ class CharitlonNavbar extends Component {
 
         return (
             <Navbar fixed="top" className={navClass}>
-                <Navbar.Brand href="#home">CHARITLON</Navbar.Brand>
+                <Navbar.Brand href="/">CHARITLON</Navbar.Brand>
                 <Nav className="mr-auto">
-                    <Nav.Link href="#about">About</Nav.Link>
+                    <Nav.Link><Link to="#about">About</Link></Nav.Link>
+                    <Nav.Link><Link to="#dolni-pocernice">Our Commitment</Link></Nav.Link>
+                    <Nav.Link><Link to="#pricing">Pricing</Link></Nav.Link>
                 </Nav>
                 
                 <Nav>

@@ -7,7 +7,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 class Pricing extends Component {
     render() {
         return (
-            <div className="pricing">
+            <div className="pricing" id="pricing">
                 <Container>
                     <div className="pricing-title">
                         <h1>ENTRANCE FEE</h1>

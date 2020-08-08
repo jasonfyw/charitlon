@@ -24,7 +24,7 @@ class AboutSection extends Component {
                             </ScrollAnimation>
                         </Col>
                         <Col sm={7}>
-                            <ScrollAnimation animateIn="slideInRight" animateOnce>
+                            <ScrollAnimation animateIn="slideInRight" animateOnce animatePreScroll offset={20} >
                                 <div className="top-layer">
                                     <p className="about-subtext">
                                         Charitlon is a student-led fundraising event working to empower education for the youth
