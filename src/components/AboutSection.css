@@ -23,7 +23,7 @@
 .about-section .top-layer {
     height: 60vh;
     width: 60vh;
-    background-color: var(--bg-colour);
+    background-color: var(--bg-bright);
 
     -webkit-box-shadow: 18px 18px 0px 0px var(--bg-shadow-colour);
     -moz-box-shadow: 18px 18px 0px 0px var(--bg-shadow-colour);

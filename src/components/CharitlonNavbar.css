@@ -1,9 +1,13 @@
 .navbar {
     font-family: 'Montserrat', sans-serif;
 }
+
+.navbar .brand {
+    color: var(--nord0);
+}
+
 .nav-link {
     font-family: 'PT Mono', monospace;
-    color: #e5e5e5;
     text-decoration: none;
 }
 
@@ -13,6 +17,9 @@
 
 .navbar-collapse {
     transition: all .5s ease-in-out;
-    background-color: #9ce1e4;
+    background-color: #add3de;
 
+}
+.navbar-collapse .nav-link {
+    color: var(--nord5) !important;
 }

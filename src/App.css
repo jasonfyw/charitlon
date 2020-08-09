@@ -1,14 +1,23 @@
+@import "nord.css";
+
 :root {
     /* ORIGINAL COLOUR SCHEME */
-    --bg-colour: rgb(244, 249, 255);
+    /* --bg-colour: rgb(244, 249, 255);
     --bg-colour2: #d3dae0;
     --bg-shadow-colour: #838383;
-    --contrast-colour: #5ce1e6;
+    --contrast-colour: #5ce1e6; */
 
     /* NEW COLOUR SCHEME */
     /* --bg-colour: #f9f7f3;
     --bg-colour2: #f88379;
     --bg-shadow-colour: #9E544E; */
+
+    /* NORD COLOUR SCHEME */
+    --bg-colour: var(--nord6);
+    --bg-colour2: var(--nord5);
+    --bg-bright: #fff;
+    --bg-shadow-colour: var(--nord3);
+    --contrast-colour: var(--nord8);
 
     --font-colour: rgb(16, 24, 32);
 }

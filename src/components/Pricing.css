@@ -13,7 +13,7 @@
 }
 
 .pricing .price-card {
-    background-color: var(--bg-colour);
+    background-color: var(--bg-bright);
     text-align: center;
     margin: 20px;
     padding: 20px;
