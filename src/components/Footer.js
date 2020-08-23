@@ -13,15 +13,15 @@ class Footer extends Component {
                 <div className="sponsors">
                     <Container>
                         <Row>
-                            <Col md="4">
-                                <img src={NadacePreciosaLogo} width="100%" alt="Nadace Preciosa Logo" />
+                            <Col md="12">
+                                <img src={NadacePreciosaLogo} style={{ 'display': 'block', 'marginLeft': 'auto', 'marginRight': 'auto', 'width': '50%', 'paddingLeft': '5rem', 'paddingRight': '5rem'}} alt="Nadace Preciosa Logo" />
                             </Col>
-                            <Col md="4">
+                            {/* <Col md="4">
                                 <img src={RenomiaLogo} width="100%" alt="Renomia Logo" />
                             </Col>
                             <Col md="4">
                                 <img src={PrazskaPlynarenskaLogo} width="100%" alt="Pražská Plynárenská Logo" style={{ 'paddingTop': '18px' }} />
-                            </Col>
+                            </Col> */}
                         </Row>
                     </Container>
                     <Container>
