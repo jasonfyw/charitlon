@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/charitlon/static/css/main.7fdb3067.chunk.css",
-    "main.js": "/charitlon/static/js/main.ebd7d0ae.chunk.js",
-    "main.js.map": "/charitlon/static/js/main.ebd7d0ae.chunk.js.map",
+    "main.css": "/charitlon/static/css/main.bf92b6b7.chunk.css",
+    "main.js": "/charitlon/static/js/main.1b83f587.chunk.js",
+    "main.js.map": "/charitlon/static/js/main.1b83f587.chunk.js.map",
     "runtime-main.js": "/charitlon/static/js/runtime-main.fbef3195.js",
     "runtime-main.js.map": "/charitlon/static/js/runtime-main.fbef3195.js.map",
     "static/css/2.47e06e2e.chunk.css": "/charitlon/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.3dcefa7a.chunk.js": "/charitlon/static/js/2.3dcefa7a.chunk.js",
-    "static/js/2.3dcefa7a.chunk.js.map": "/charitlon/static/js/2.3dcefa7a.chunk.js.map",
+    "static/js/2.5fa2df4d.chunk.js": "/charitlon/static/js/2.5fa2df4d.chunk.js",
+    "static/js/2.5fa2df4d.chunk.js.map": "/charitlon/static/js/2.5fa2df4d.chunk.js.map",
     "index.html": "/charitlon/index.html",
-    "precache-manifest.a1790e3bd1df5efc7bf06be866f66317.js": "/charitlon/precache-manifest.a1790e3bd1df5efc7bf06be866f66317.js",
+    "precache-manifest.f44e96942e2aa6274215cbb5fe714800.js": "/charitlon/precache-manifest.f44e96942e2aa6274215cbb5fe714800.js",
     "service-worker.js": "/charitlon/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/charitlon/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.7fdb3067.chunk.css.map": "/charitlon/static/css/main.7fdb3067.chunk.css.map",
-    "static/js/2.3dcefa7a.chunk.js.LICENSE.txt": "/charitlon/static/js/2.3dcefa7a.chunk.js.LICENSE.txt",
+    "static/css/main.bf92b6b7.chunk.css.map": "/charitlon/static/css/main.bf92b6b7.chunk.css.map",
+    "static/js/2.5fa2df4d.chunk.js.LICENSE.txt": "/charitlon/static/js/2.5fa2df4d.chunk.js.LICENSE.txt",
     "static/media/charitlon-logo-heart.png": "/charitlon/static/media/charitlon-logo-heart.acdbd465.png",
     "static/media/charitlon-logo-palms.png": "/charitlon/static/media/charitlon-logo-palms.9c50cee4.png",
     "static/media/dolnipocernice.jpg": "/charitlon/static/media/dolnipocernice.1f061056.jpg",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.fbef3195.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.3dcefa7a.chunk.js",
-    "static/css/main.7fdb3067.chunk.css",
-    "static/js/main.ebd7d0ae.chunk.js"
+    "static/js/2.5fa2df4d.chunk.js",
+    "static/css/main.bf92b6b7.chunk.css",
+    "static/js/main.1b83f587.chunk.js"
   ]
 }
